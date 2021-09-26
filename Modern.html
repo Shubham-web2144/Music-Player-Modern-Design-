@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Music Player</title>
+    
+    <link rel="stylesheet" href="Modern.css" type="text/css" media="all" />
+    
+    <script src="https://kit.fontawesome.com/2c0e277225.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex">
+    <div class="container_box">
+        <div class="header_box flex">
+            <div class="menu_icon">
+                <button type="" class="btn icon" id="menuIcon"><i class="fas fa-angle-down"></i></button>
+            </div>
+            <div class="menu_content">
+                <button type="" class="btn info"><i class="fas fa-info"></i></button>
+                <button type="" class="btn mute"><i class="fas fa-volume-up"></i></button>
+                <button type="" class="btn showHeadphon"><i class="fas fa-headphones"></i></button>
+            </div>
+            <div class="music_list">
+                <button type="" class="btn List_icon"><i class="fas fa-music"></i></button>
+            </div>
+        </div>
+        
+        <div class="img_box">
+            <img src="Abaad.jpg" alt="" class="songImg"/>
+            <audio src="/musics/Mp2.mp3" id="audio"></audio>
+        </div>
+        
+        <div class="slider_box">
+            <input type="range" min="" max="" class="range" value="0" />
+        </div>
+        
+        <div class="control_box flex">
+            <button type="" class="btn prev" >
+                <i class="fas fa-backward"></i>
+                </button>
+            <button type="" class="btn play"><i class="fas fa-play"></i></button>
+            <button type="" class="btn next"><i class="fas fa-forward"></i></button>
+        </div>
+        
+        <div class="song_list">
+            <h3>Song List</h3>
+            <div class="list-item flex">
+                <div class="item-img"><img src="/Imges/Abaad.jpg" class="songListImg" />
+                </div>
+                <div class="item-title">
+                    <h5 class="songListTitle">Aabaad Barbaad</h5>
+                </div>
+                <audio src="/musics/Mp2.mp3" id="songAudio"></audio>
+                <div class="item-btn btn play playList"><i class="fas fa-play"></i></div>
+            </div>
+            
+            <div class="list-item flex">
+                <div class="item-img"><img src="/Imges/Bagun.jpg" alt="" />
+                </div>
+                <div class="item-title">
+                    <h5>Tula Bagun</h5>
+                </div>
+                <div class="item-btn btn play playList" --i:1>
+                    <i class="fas fa-play">
+                        
+                    </i>
+                </div>
+            </div>
+            
+            <div class="list-item flex">
+                <div class="item-img"><img src="/Imges/Naina.jpeg" alt="" />
+                </div>
+                <div class="item-title">
+                    <h5>Naina</h5>
+                </div>
+                <div class="item-btn btn play playList"><i class="fas fa-play"></i></div>
+            </div>
+            
+            <div class="list-item flex">
+                <div class="item-img"><img src="/Imges/No1.jpg" alt="" />
+                </div>
+                <div class="item-title">
+                    <h4>No 1 yaari</h4>
+                </div>
+                <div class="item-btn btn play playList"><i class="fas fa-play"></i></div>
+            </div>
+            
+            <div class="list-item flex">
+                <div class="item-img"><img src="/Imges/bhuladu.jpeg" alt="" />
+                </div>
+                <div class="item-title">
+                    <h4>Song Title</h4>
+                </div>
+                <div class="item-btn btn play playList"><i class="fas fa-play"></i></div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div class="info-box">
+            <h3>Information</h3>
+            <div class="song-info">
+                <p class="title"></p>
+                <p class="artist"></p>
+                <p class="path"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Modern.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
